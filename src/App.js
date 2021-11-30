@@ -55,7 +55,7 @@ function App() {
       for (let ele in data) {
         result.push(
           <div key={Math.random()}>
-            <h3 >{ele+' syllable'+addS(Number)}</h3>
+            <h3 >{ele + ' syllable' + addS(Number)}</h3>
             <ul>
               {data[ele].map((item) => {
                 return (
@@ -139,7 +139,7 @@ const pressEnter = (event) =>{
 
 return (
   <div className="App">
-    <div>Repo Address: <a href="https://github.com/yunleeumich/si579_problemset_6" 
+    <div>Repo Address: <a href="https://github.com/yunleeumich/si579_problemset_6"
         target="_blank">https://github.com/yunleeumich/si579_problemset_6</a>
     </div>
     <div>
